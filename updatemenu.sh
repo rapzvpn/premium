@@ -64,8 +64,8 @@ wget -O cek-tr "https://raw.githubusercontent.com/rapzvpn/premium/master/xray/ce
 
 
 #BACKUP
-cd; clear; mkdir -p /etc/lukman
-wget -q -O /etc/lukman/dependencies.sh raw.githubusercontent.com/rapzvpn/premium/master/backup/dependencies.sh; bash /etc/lukman/dependencies.sh
+cd; clear; mkdir -p /etc/rapzvpn
+wget -q -O /etc/lukman/dependencies.sh raw.githubusercontent.com/rapzvpn/premium/master/backup/dependencies.sh; bash /etc/rapzvpn/dependencies.sh
 wget -q -O /usr/bin/backup raw.githubusercontent.com/rapzvpn/premium/master/backup/backup.sh; chmod 755 /usr/bin/backup
 wget -q -O /usr/bin/autobackup raw.githubusercontent.com/rapzvpn/premium/master/backup/autobackup.sh; chmod 755 /usr/bin/autobackup
 wget -q -O /usr/bin/restore raw.githubusercontent.com/rapzvpn/premium/master/backup/restore.sh; chmod 755 /usr/bin/restore
